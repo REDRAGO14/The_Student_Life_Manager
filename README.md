@@ -1,46 +1,56 @@
-# Student Life Manager
+# 🎓 Student Life Manager
 
-## 📌 Project Overview
-The Student Life Manager is a command-line Python application designed to help students
-track their academic performance and evaluate financial feasibility for a celebration expense.
-
-This project was developed as part of a programming assignment and follows strict constraints
-such as avoiding global variables and ensuring proper data flow through functions.
+[![Python](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 
 ---
 
-## 🧠 Features
-- Accepts an indefinite number of grades
-- Calculates and rounds the average grade
-- Evaluates academic performance based on predefined thresholds
-- Checks whether a celebration expense is affordable
-- Displays a final formatted report
+## 📌 Project Overview
+**Student Life Manager** is a **command-line Python application** designed to help students track their academic performance and evaluate financial feasibility for celebration expenses.  
+
+Built with **clean, modular code**, it emphasizes proper data flow through **function parameters and return values** without using global variables, ensuring maintainability and scalability.  
+
+---
+
+## 🧠 Key Features
+- Accepts an **unlimited number of grades**  
+- **Calculates and rounds the average grade**  
+- **Evaluates academic performance** based on thresholds  
+- **Checks affordability** of celebration expenses  
+- Generates a **formatted summary report**  
 
 ---
 
 ## 🧩 Program Structure
-The program is organized using modular functions:
+| Function | Description |
+|----------|-------------|
+| `user_grades()` | Collects grades and returns total and count |
+| `average_calculator(total, count)` | Computes the rounded average |
+| `performance_evaluation(average)` | Determines academic status (Excellent, Good, etc.) |
+| `expense_checker(budget, expense)` | Checks affordability of a celebration expense |
+| `controller()` | Coordinates program execution |
 
-- `user_grades()` – Collects grades and returns total and count
-- `average_calculator()` – Computes the rounded average
-- `performance_evaluation()` – Determines academic status
-- `expense_checker()` – Checks affordability
-- `controller()` – Coordinates program execution
-
-All data is passed through function parameters and return values.
-No global variables are used.
+> **Design Principle:** All data flows through function arguments and return values. No global state is used.
 
 ---
 
-## 🔄 Flowchart
-The flowchart below illustrates the logical flow of the program:
-
+## 🔄 Program Flow
 ![Flowchart](flowchart.png)
 
 ---
 
-## ▶️ How to Run
-1. Clone the repository
-2. Run the program using:
+## ▶️ Getting Started
+
+### Prerequisites  
+- Terminal or command prompt  
+
+### Installation
+1. Clone the repository:  
    ```bash
-   python main.py
+   git clone https://github.com/REDRAGO14/The_Student_Life_Manager.git
+2. Navigate into the directory:
+    ```bash
+    cd student-life-manager
+3. Run the application:
+    ```bash
+    python main.py
