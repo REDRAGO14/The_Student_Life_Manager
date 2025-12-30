@@ -13,11 +13,11 @@ Built with **clean, modular code**, it emphasizes proper data flow through **fun
 ---
 
 ## 🧠 Key Features
-👉 Accepts an **unlimited number of grades**  
-👉 **Calculates and rounds the average grade**  
-👉 **Evaluates academic performance** based on thresholds  
-👉 **Checks affordability** of celebration expenses  
-👉 Generates a **formatted summary report**  
+- Accepts an **unlimited number of grades**  
+- **Calculates and rounds the average grade**  
+- **Evaluates academic performance** based on thresholds  
+- **Checks affordability** of celebration expenses  
+- Generates a **formatted summary report**  
 
 ---
 
